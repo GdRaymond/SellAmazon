@@ -1,0 +1,194 @@
+2019-02-28 13:24:48 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2019-02-28 13:24:48 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-02-28 13:24:48 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-02-28 13:24:48 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-02-28 13:24:48 [scrapy.core.engine] INFO: Spider opened
+2019-02-28 13:24:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-02-28 13:24:48 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2019-02-28 13:24:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/robots.txt> (referer: None)
+2019-02-28 13:24:49 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men> from <GET https://www.amazon.com/s?k=nike+shoes+men&crid=2QDDJJDW5ZD79&sprefix=Nike%2Caps%2C723&ref=nb_sb_ss_i_2_4>
+2019-02-28 13:24:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men> (referer: None)
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Revolution-Running-White-Anthracite-Regular/dp/B06XKLCKWT
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Revolution-Running-White-Anthracite-Regular/dp/B06XKLCKWT
+2019-02-28 13:24:51 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://www.amazon.com/NIKE-Revolution-Running-White-Anthracite-Regular/dp/B06XKLCKWT> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Revolution-Running-White-Anthracite-Regular/dp/B06XKLCKWT
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Revolution-Running-White-Anthracite-Regular/dp/B06XKLCKWT#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Monarch-Trainer-Metallic-Midnight/dp/B004IM1GHW
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Monarch-Trainer-Metallic-Midnight/dp/B004IM1GHW
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Monarch-Trainer-Metallic-Midnight/dp/B004IM1GHW
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Monarch-Trainer-Metallic-Midnight/dp/B004IM1GHW#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Mens-Tanjun-Black-White/dp/B00XWPX0TI
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Mens-Tanjun-Black-White/dp/B00XWPX0TI
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Mens-Tanjun-Black-White/dp/B00XWPX0TI
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Mens-Tanjun-Black-White/dp/B00XWPX0TI#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Torch-Running-Shoes-Black/dp/B005AHBKJI
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Torch-Running-Shoes-Black/dp/B005AHBKJI
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Torch-Running-Shoes-Black/dp/B005AHBKJI
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Torch-Running-Shoes-Black/dp/B005AHBKJI#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Fingertrap-Trainer-Anthracite-Regular/dp/B01N2WCCY0
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Fingertrap-Trainer-Anthracite-Regular/dp/B01N2WCCY0
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Fingertrap-Trainer-Anthracite-Regular/dp/B01N2WCCY0
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Fingertrap-Trainer-Anthracite-Regular/dp/B01N2WCCY0#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Essential-Running-Shoes-AJ1285-019/dp/B07JXTKSH9
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Essential-Running-Shoes-AJ1285-019/dp/B07JXTKSH9
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Essential-Running-Shoes-AJ1285-019/dp/B07JXTKSH9
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Essential-Running-Shoes-AJ1285-019/dp/B07JXTKSH9#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Mens-Running-Black-Orbit/dp/B07JNCCPYH
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Mens-Running-Black-Orbit/dp/B07JNCCPYH
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Mens-Running-Black-Orbit/dp/B07JNCCPYH
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Mens-Running-Black-Orbit/dp/B07JNCCPYH#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Revolution-Running-Black-Regular/dp/B06XKFZWYQ
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Revolution-Running-Black-Regular/dp/B06XKFZWYQ
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Revolution-Running-Black-Regular/dp/B06XKFZWYQ
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Revolution-Running-Black-Regular/dp/B06XKFZWYQ#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Dynasty-Running-Anthracite-Metallic/dp/B01CITNJ30
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Dynasty-Running-Anthracite-Metallic/dp/B01CITNJ30
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Dynasty-Running-Anthracite-Metallic/dp/B01CITNJ30
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Dynasty-Running-Anthracite-Metallic/dp/B01CITNJ30#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Running-Shoes-Black-White-Anthracite/dp/B0097O02UI
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Running-Shoes-Black-White-Anthracite/dp/B0097O02UI
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Running-Shoes-Black-White-Anthracite/dp/B0097O02UI
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Running-Shoes-Black-White-Anthracite/dp/B0097O02UI#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Swift-Running-Grey-Black-Regular/dp/B01N3T0M97
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Swift-Running-Grey-Black-Regular/dp/B01N3T0M97
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Swift-Running-Grey-Black-Regular/dp/B01N3T0M97
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Swift-Running-Grey-Black-Regular/dp/B01N3T0M97#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Mens-Revolution-Running-Black/dp/B010OC8LA4
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Mens-Revolution-Running-Black/dp/B010OC8LA4
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Mens-Revolution-Running-Black/dp/B010OC8LA4
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Mens-Revolution-Running-Black/dp/B010OC8LA4#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Experience-Running-Black-Cool-Grey-White/dp/B078PQ3MY2
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Experience-Running-Black-Cool-Grey-White/dp/B078PQ3MY2
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Experience-Running-Black-Cool-Grey-White/dp/B078PQ3MY2
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Experience-Running-Black-Cool-Grey-White/dp/B078PQ3MY2#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Flyknit-Black-Running-White-Volt/dp/B06XKMGGSR
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Flyknit-Black-Running-White-Volt/dp/B06XKMGGSR
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Flyknit-Black-Running-White-Volt/dp/B06XKMGGSR
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/NIKE-Flyknit-Black-Running-White-Volt/dp/B06XKMGGSR#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Running-Black-Off-White-Cargo/dp/B072FBM2X7
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Running-Black-Off-White-Cargo/dp/B072FBM2X7
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Running-Black-Off-White-Cargo/dp/B072FBM2X7
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Running-Black-Off-White-Cargo/dp/B072FBM2X7#customerReviews
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Pegasus-Varsity-Crimson-White-Black/dp/B07N11LF7P
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Pegasus-Varsity-Crimson-White-Black/dp/B07N11LF7P
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Pegasus-Varsity-Crimson-White-Black/dp/B07N11LF7P
+2019-02-28 13:24:51 [root] DEBUG: get item url=https://www.amazon.com/Nike-Pegasus-Varsity-Crimson-White-Black/dp/B07N11LF7P#customerReviews
+2019-02-28 13:24:51 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/NIKE-Mens-Revolution-Running-Shoe/dp/B07BVW2FJX> from <GET https://www.amazon.com/NIKE-Revolution-Running-White-Anthracite-Regular/dp/B06XKLCKWT>
+2019-02-28 13:24:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/NIKE-Torch-Mens-Running-Shoes/dp/B07C5FXLGM> from <GET https://www.amazon.com/NIKE-Torch-Running-Shoes-Black/dp/B005AHBKJI>
+2019-02-28 13:24:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/Sneakers-Breathable-Comfortable-Lightweight-Cushioning/dp/B078H9Z1S5> from <GET https://www.amazon.com/NIKE-Mens-Tanjun-Black-White/dp/B00XWPX0TI>
+2019-02-28 13:24:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/Nike-Mens-Monarch-Cross-Trainer/dp/B07JQKM2SP> from <GET https://www.amazon.com/NIKE-Monarch-Trainer-Metallic-Midnight/dp/B004IM1GHW>
+2019-02-28 13:24:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/NIKE-Mens-Leather-Running-Shoe/dp/B00PKR12D2> from <GET https://www.amazon.com/Nike-Essential-Running-Shoes-AJ1285-019/dp/B07JXTKSH9>
+2019-02-28 13:24:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/Nike-Mens-Revolution-Running-Shoe/dp/B07JLJVFLL> from <GET https://www.amazon.com/NIKE-Revolution-Running-Black-Regular/dp/B06XKFZWYQ>
+2019-02-28 13:24:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/Nike-Lunar-Fingertrap-Cross-Trainer/dp/B07KYBGCTY> from <GET https://www.amazon.com/NIKE-Fingertrap-Trainer-Anthracite-Regular/dp/B01N2WCCY0>
+2019-02-28 13:24:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/NIKE-Mens-Revolution-Running-Shoe/dp/B01N7XW7LN> from <GET https://www.amazon.com/Nike-Mens-Revolution-Running-Black/dp/B010OC8LA4>
+2019-02-28 13:24:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/Nike-Mens-Free-Rn-Sense/dp/B07NDP5R2V> from <GET https://www.amazon.com/Running-Shoes-Black-White-Anthracite/dp/B0097O02UI>
+2019-02-28 13:24:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/NIKE-Mens-Swift-Running-Shoe/dp/B07BSV874R> from <GET https://www.amazon.com/NIKE-Swift-Running-Grey-Black-Regular/dp/B01N3T0M97>
+2019-02-28 13:24:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/NIKE-Zoom-Pegasus-Mens-880555-301/dp/B00K0UDYNU> from <GET https://www.amazon.com/Nike-Pegasus-Varsity-Crimson-White-Black/dp/B07N11LF7P>
+2019-02-28 13:24:52 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/Nike-Mens-Axis-Running-Shoe/dp/B00TJ4QPE8> from <GET https://www.amazon.com/Nike-Mens-Running-Black-Orbit/dp/B07JNCCPYH>
+2019-02-28 13:24:53 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/NIKE-Mens-Free-Running-Shoe/dp/B01NC0LN97> from <GET https://www.amazon.com/Nike-Running-Black-Off-White-Cargo/dp/B072FBM2X7>
+2019-02-28 13:24:53 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/Nike-Mens-Free-Flyknit-Running/dp/B071P9842Y> from <GET https://www.amazon.com/NIKE-Flyknit-Black-Running-White-Volt/dp/B06XKMGGSR>
+2019-02-28 13:24:53 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.amazon.com/NIKE-Mens-Flex-Experience-Shoe/dp/B07BSJBXJS> from <GET https://www.amazon.com/Nike-Experience-Running-Black-Cool-Grey-White/dp/B078PQ3MY2>
+2019-02-28 13:24:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/NIKE-Dynasty-Running-Anthracite-Metallic/dp/B01CITNJ30> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/NIKE-Dynasty-Running-Anthracite-Metallic/dp/B01CITNJ30>
+{'last_updated': ['today'],
+ 'name': ["Nike Men's Air Max Dynasty 2 Running Shoe Anthracite/Metallic Cool "
+          'Grey/Black Size 10 M US']}
+2019-02-28 13:24:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/NIKE-Torch-Mens-Running-Shoes/dp/B07C5FXLGM> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/NIKE-Torch-Mens-Running-Shoes/dp/B07C5FXLGM>
+{'last_updated': ['today'],
+ 'name': ["Nike Air Max Torch 3 Men's Running Shoes"]}
+2019-02-28 13:24:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/Nike-Mens-Monarch-Cross-Trainer/dp/B07JQKM2SP> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/Nike-Mens-Revolution-Running-Shoe/dp/B07JLJVFLL> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/Sneakers-Breathable-Comfortable-Lightweight-Cushioning/dp/B078H9Z1S5> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/NIKE-Mens-Leather-Running-Shoe/dp/B00PKR12D2> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/Nike-Lunar-Fingertrap-Cross-Trainer/dp/B07KYBGCTY> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/Nike-Mens-Monarch-Cross-Trainer/dp/B07JQKM2SP>
+{'last_updated': ['today'], 'name': ["Nike Men's Air Monarch Iv Cross Trainer"]}
+2019-02-28 13:24:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/Nike-Mens-Revolution-Running-Shoe/dp/B07JLJVFLL>
+{'last_updated': ['today'], 'name': ["Nike Men's Revolution 4 Running Shoe"]}
+2019-02-28 13:24:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/Sneakers-Breathable-Comfortable-Lightweight-Cushioning/dp/B078H9Z1S5>
+{'last_updated': ['today'],
+ 'name': ["NIKE Men's Tanjun Sneakers, Breathable Textile Uppers and "
+          'Comfortable Lightweight Cushioning']}
+2019-02-28 13:24:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/NIKE-Mens-Leather-Running-Shoe/dp/B00PKR12D2>
+{'last_updated': ['today'],
+ 'name': ["Nike Men's Air Max 90 Leather Running Shoe"]}
+2019-02-28 13:24:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/Nike-Lunar-Fingertrap-Cross-Trainer/dp/B07KYBGCTY>
+{'last_updated': ['today'],
+ 'name': ["Nike Men's Lunar Fingertrap Cross Trainer"]}
+2019-02-28 13:24:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/NIKE-Mens-Swift-Running-Shoe/dp/B07BSV874R> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/NIKE-Mens-Revolution-Running-Shoe/dp/B07BVW2FJX> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/NIKE-Mens-Swift-Running-Shoe/dp/B07BSV874R>
+{'last_updated': ['today'], 'name': ["Nike Men's Swift Running Shoe"]}
+2019-02-28 13:24:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/NIKE-Mens-Revolution-Running-Shoe/dp/B07BVW2FJX>
+{'last_updated': ['today'], 'name': ["Nike Men's Revolution 4 Running Shoe"]}
+2019-02-28 13:24:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/NIKE-Mens-Revolution-Running-Shoe/dp/B01N7XW7LN> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/NIKE-Mens-Revolution-Running-Shoe/dp/B01N7XW7LN>
+{'last_updated': ['today'], 'name': ["Nike Men's Revolution 3  Running Shoe"]}
+2019-02-28 13:24:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/Nike-Mens-Axis-Running-Shoe/dp/B00TJ4QPE8> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/Nike-Mens-Free-Flyknit-Running/dp/B071P9842Y> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/Nike-Mens-Axis-Running-Shoe/dp/B00TJ4QPE8>
+{'last_updated': ['today'], 'name': ["Nike Men's Air Max Axis Running Shoe"]}
+2019-02-28 13:24:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/Nike-Mens-Free-Flyknit-Running/dp/B071P9842Y>
+{'last_updated': ['today'],
+ 'name': ['Nike Men’s Free RN Flyknit 2017 Running Shoe']}
+2019-02-28 13:24:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/NIKE-Mens-Flex-Experience-Shoe/dp/B07BSJBXJS> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/NIKE-Zoom-Pegasus-Mens-880555-301/dp/B00K0UDYNU> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/NIKE-Mens-Free-Running-Shoe/dp/B01NC0LN97> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/NIKE-Mens-Flex-Experience-Shoe/dp/B07BSJBXJS>
+{'last_updated': ['today'],
+ 'name': ["NIKE Men's Flex Experience RN 7 Running Shoe"]}
+2019-02-28 13:24:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/NIKE-Zoom-Pegasus-Mens-880555-301/dp/B00K0UDYNU>
+{'last_updated': ['today'],
+ 'name': ["NIKE Men's Air Zoom Pegasus 34 Running Shoe"]}
+2019-02-28 13:24:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/NIKE-Mens-Free-Running-Shoe/dp/B01NC0LN97>
+{'last_updated': ['today'], 'name': ["NIKE Men's Free RN Running Shoe"]}
+2019-02-28 13:24:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.amazon.com/Nike-Mens-Free-Rn-Sense/dp/B07NDP5R2V> (referer: https://www.amazon.com/nike-shoes-men/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Anike%20shoes%20men)
+2019-02-28 13:24:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.amazon.com/Nike-Mens-Free-Rn-Sense/dp/B07NDP5R2V>
+{'last_updated': ['today'], 'name': ["Nike Men's Free Rn Sense"]}
+2019-02-28 13:24:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-02-28 13:24:59 [scrapy.extensions.feedexport] INFO: Stored csv feed (16 items) in: amazon.csv
+2019-02-28 13:24:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 12035,
+ 'downloader/request_count': 34,
+ 'downloader/request_method_count/GET': 34,
+ 'downloader/response_bytes': 2093704,
+ 'downloader/response_count': 34,
+ 'downloader/response_status_count/200': 18,
+ 'downloader/response_status_count/301': 16,
+ 'dupefilter/filtered': 48,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 2, 28, 3, 24, 59, 630431),
+ 'item_scraped_count': 16,
+ 'log_count/DEBUG': 116,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 18,
+ 'scheduler/dequeued': 33,
+ 'scheduler/dequeued/memory': 33,
+ 'scheduler/enqueued': 33,
+ 'scheduler/enqueued/memory': 33,
+ 'start_time': datetime.datetime(2019, 2, 28, 3, 24, 48, 724669)}
+2019-02-28 13:24:59 [scrapy.core.engine] INFO: Spider closed (finished)
